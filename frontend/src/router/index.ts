@@ -15,6 +15,7 @@ const Equipcheck = () => import('@/views/equipcheck/index.vue')
 const Overhaul = () => import('@/views/overhaul/index.vue')
 const Spare = () => import('@/views/spare/index.vue')
 const Powerstat = () => import('@/views/powerstat/index.vue')
+const PowerLedger = () => import('@/views/power-ledger/index.vue')
 const Emission = () => import('@/views/emission/index.vue')
 const Shift = () => import('@/views/shift/index.vue')
 const Safetyplan = () => import('@/views/safetyplan/index.vue')
@@ -38,6 +39,7 @@ const router = createRouter({
     { path: '/overhaul', name: 'overhaul', component: Overhaul },
     { path: '/spare', name: 'spare', component: Spare },
     { path: '/powerstat', name: 'powerstat', component: Powerstat },
+    { path: '/power-ledger', name: 'power-ledger', component: PowerLedger },
     { path: '/emission', name: 'emission', component: Emission },
     { path: '/shift', name: 'shift', component: Shift },
     { path: '/safetyplan', name: 'safetyplan', component: Safetyplan },
